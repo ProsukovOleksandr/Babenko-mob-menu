@@ -1,0 +1,430 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+  .header-style {
+    margin: 0 auto;
+  }
+  .main-container {
+    width: 480px;
+    margin: 0 auto;
+  }
+  .main-title {
+    font-size: 36px;
+    width: 320px;
+  }
+  .mob-phone-number {
+    font-size: 36px;
+    line-height: calc(40 / 36);
+  }
+  .mobile-soc-list {
+    gap: 56px;
+  }
+  .descr-container{
+    margin: 0 auto;
+  }
+  .descr {
+    gap: 72px;
+  }
+  .descr-item {
+    width: calc((100%-24px));
+  }
+  .team-container {
+    margin: 0 auto;
+  }
+  .team-list {
+    row-gap: 72px;
+  }
+  .team-item {
+    display: flex;
+  }
+  .customers-container{
+    margin: 0 auto;
+  }
+  .footer-container{
+    margin: 0 auto;
+  }
+  footer .text {
+    width: 268px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  .header-style {
+    margin: 0 auto;
+  }
+  .header-container {
+    margin: 0 auto;
+  }
+  .menu-open {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .menu {
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    position: relative;
+  }
+  .menu-item.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 42px;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
+  .contacts-list {
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0;
+  }
+  .phone-number {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+  .email-link {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+  .mail {
+    display: flex;
+    color: var(--text-color);
+  }
+  .main-container {
+    width: 768px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/dark-bg-tablet.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover, cover;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-container {
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),url(../images/dark-bg-tablet-2x.jpg);
+  }
+}
+  .btn {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .main-title {
+    margin-bottom: 40px;
+    width: 500px;
+    font-size: 56px;
+    line-height: calc(60 / 56);
+  }
+  .descr-container {
+    margin: 0 auto;
+  }
+  .descr {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .descr-item {
+    text-align: left;
+    width: 356px;
+    height: 120px;
+  }
+  .descr-item .third-title{
+    display: block;
+  }
+  .descr-item .text{
+    margin: 0;
+    margin-top: 8px;
+  }
+  .team-container {
+    margin: 0 auto;
+  }
+  .team-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .team-item {
+    display: flex;
+  }
+  .customers-container {
+    margin: 0 auto;
+  }
+  .customers-list{
+   width: 552px;
+  }
+  .customer-link{
+    width: 170px;
+  }
+  .footer-container {
+    margin: 0 auto;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+  .footer-info {
+    width: 264px;
+    margin: 0;
+    margin-bottom: 72px;
+  }
+  footer .logo {
+    margin-left: 0;
+  }
+  .foot-soc-container {
+    margin: 0;
+    margin-bottom: 100px;
+  }
+  .foot-soc-title {
+    margin-left: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+  }
+  .input-name {
+    display: flex;
+    justify-content: revert;
+    margin-bottom: 16px;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .footer-input-wrap {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-btn {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+  }
+  .header-style {
+    margin: 0 auto;
+  }
+  .menu-open {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .menu {
+    padding: 0;
+    margin-left: 76px;
+    margin-right: 0;
+    display: flex;
+    gap: 40px;
+  }
+  .menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    position: relative;
+  }
+  .menu-item.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 42px;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
+  .contacts-list {
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    margin-left: 332px;
+    gap: 40px;
+    padding: 0;
+  }
+  .phone-number {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+  .email-link {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+  .mail {
+    display: flex;
+    color: var(--text-color);
+  }
+  .main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-1.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-container {
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),url(../images/people-office-1-2x.jpg);
+  }
+}
+  .main-title {
+    width: 496px;
+    margin-bottom: 48px;
+    font-size: 56px;
+   line-height: calc(60/56);
+   letter-spacing: 0.02em;
+  }
+  .descr-container {
+    margin: 0 auto;
+  }
+  .descr {
+    gap: 24px;
+  }
+  .descr-item {
+    width: 264px;
+  }
+  .descr-item .text{
+    font-weight: 400;
+    margin: 0;
+    margin-top: 8px;
+  }
+  .descr-item .third-title{
+   display: block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  }
+  .desc-icon,
+  .thumb {
+    display: flex;
+  }
+  .skills-container{
+    display: block;
+  }
+  .customers-title {
+    width: 183px;
+  }
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .customers-container {
+    margin: 0 auto;
+  }
+  .customer-link {
+    width: 168px;
+  }
+  .team-container {
+    margin: 0 auto;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .team-item {
+    display: inline-block;
+  }
+  .footer-container {
+    margin: 0 auto;
+  }
+  footer .container {
+    width: 1158px;
+  }
+  .footer-content {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+  }
+  footer .logo {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .footer-info {
+    display: flex;
+    row-gap: 16px;
+    margin: 0;
+  }
+  .foot-soc-container {
+    margin: 0;
+    margin-left: 120px;
+    margin-right: 80px;
+  }
+  .foot-soc-title{
+    margin-left: 0;
+  }
+  .footer-form {
+    margin: 0;
+  }
+  .input-name{
+    width: 75px;
+  }
+  .footer-input-wrap{
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-btn{
+    margin-top: 0;
+  }
+}
