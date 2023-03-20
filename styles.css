@@ -163,29 +163,7 @@ ul {
 .mobile-soc-link:is(:hover, :focus)  .mobile-soc-icon{
   fill: rgba(253, 146, 34, 1);
 }
-.btn {
-  font-family: inherit;
-  font-weight: 500;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-  height: 48px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  color: #4d5ae5;
-  cursor: pointer;
-  transition-property: border-color, background-color, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn:is(:hover, :focus) {
-  border-color: transparent;
-  color: #ffffff;
-  background-color: var(--btn-hover-color);
-}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
